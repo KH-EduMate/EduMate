@@ -180,7 +180,7 @@ public class ReferenceController {
 
             if (memberId == null ||
                 (!reference.getMemberId().equals(memberId) &&
-                 !"Y".equals(adminYn))) {
+                !"Y".equals(adminYn))) {
                 return "redirect:/reference/list";
             }
 
@@ -209,7 +209,7 @@ public class ReferenceController {
 
             if (memberId == null ||
                 (!originalRef.getMemberId().equals(memberId) &&
-                 !"Y".equals(adminYn))) {
+                !"Y".equals(adminYn))) {
                 return "redirect:/reference/list";
             }
 
@@ -249,7 +249,7 @@ public class ReferenceController {
 
             if (memberId == null ||
                 (!reference.getMemberId().equals(memberId) &&
-                 !"Y".equals(adminYn))) {
+                !"Y".equals(adminYn))) {
                 return "redirect:/reference/list";
             }
 

@@ -65,8 +65,8 @@
             <div class="event-buttons-left">
                 <c:if test="${sessionScope.loginMember.adminYN eq 'Y'}">
                     <a href="/event/update?eventId=${event.eventId}" style="text-decoration:none">
-                        <button class="edit-btn">수정</button>
-                    </a>
+                        <!-- <button class="edit-btn">수정</button> -->
+                    </a> 
                     <a href="javascript:void(0)" onclick="checkDelete();" style="text-decoration:none">
                         <button class="delete-btn">삭제</button>
                     </a>
@@ -109,7 +109,7 @@
             <div class="event-buttons-left">
                 <c:if test="${sessionScope.loginMember.adminYN eq 'Y'}">
                     <a href="/event/update?eventId=${event.eventId}" style="text-decoration:none">
-                        <button class="edit-btn">수정</button>
+                        <!-- <button class="edit-btn">수정</button> -->
                     </a>
                     <a href="javascript:void(0)" onclick="checkDelete();" style="text-decoration:none">
                         <button class="delete-btn">삭제</button>

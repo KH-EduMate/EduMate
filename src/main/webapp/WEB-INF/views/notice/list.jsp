@@ -74,7 +74,9 @@
 					</a>
 				</c:if>
 			</div>
-			<a href="/notice/insert" class="write-button">글쓰기</a>
+			<c:if test="${sessionScope.loginMember.adminYN eq 'Y'}">
+				<a href="/notice/insert" class="write-button">글쓰기</a>
+			</c:if>
 		</div>
 	</main>
 </div>
