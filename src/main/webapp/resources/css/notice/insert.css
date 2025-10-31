@@ -156,6 +156,8 @@ textarea {
     width: 100%;
     max-width: 800px;
     text-align: right;
+    display: block;
+    
 }
 
 .submit-btn {
