@@ -12,6 +12,7 @@
 </head>
 <body>
 	<jsp:include page="../common/header.jsp" />
+	<main>
 	<!-- 메인 배너 -->
 	<link rel="stylesheet" href="/resources/css/common/main_banner.css">
 	<section class="main-banner">
@@ -22,6 +23,7 @@
             <img src="/resources/images/notice/noticeIcon.png" alt="공지사항 아이콘">
         </div>
 	</section>
+	<section class = "A1">
 			<form class="form-actions" action="/notice/update" method="post">
 			<!-- 제목 -->
 			<div class="form-group">

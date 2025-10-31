@@ -105,7 +105,7 @@ body {
 }
 
 textarea {
-    height: 150px;
+    height: 300px;
     resize: none;
 }
 
@@ -173,4 +173,11 @@ textarea {
 
 .submit-btn:hover {
     background: #555;
+}
+
+.A1 {
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	height : 600px;
 }
